@@ -1,0 +1,48 @@
+{
+  "name": "zcc-plugin-orgo-machines-6758",
+  "version": "0.2.0",
+  "type": "module",
+  "engines": {
+    "zcc": ">=1.0.0",
+    "zccPluginSdk": ">=0.1.0"
+  },
+  "zcc": {
+    "name": "Orgo Machines",
+    "description": "Manage Orgo computers and connect them directly to Zana with automatic SSH setup.",
+    "branding": {
+      "icon": "Monitor"
+    },
+    "server": "./server.ts",
+    "app": "./app.tsx",
+    "skills": [
+      "skills"
+    ]
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@vitest/coverage-v8": "^4.1.12",
+    "@zana-ai/zcc-plugin-sdk": "file:vendor/zana-ai-zcc-plugin-sdk-0.1.0.tgz",
+    "jsdom": "^26.1.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.12"
+  },
+  "license": "MIT",
+  "author": "grebmann1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grebmann1/zana-orgo-machines.git"
+  },
+  "homepage": "https://github.com/grebmann1/zana-orgo-machines#readme",
+  "bugs": {
+    "url": "https://github.com/grebmann1/zana-orgo-machines/issues"
+  }
+}

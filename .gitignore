@@ -1,0 +1,14 @@
+node_modules/
+coverage/
+*.log
+.zcc/
+.env
+.env.*
+!.env.example
+LIVE_RESULTS.md
+app.js
+app.js.map
+app.meta.json
+server.mjs
+server.meta.json
+.DS_Store
